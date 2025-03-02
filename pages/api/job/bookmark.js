@@ -1,4 +1,4 @@
-import ConnectDB from '@/DB/connectDB';
+import ConnectDB from '@/pages/DB/connectDB';
 import validateToken from '@/middleware/tokenValidation';
 import bookMarkJob from '@/models/Bookmark';
 import Joi from 'joi';
