@@ -6,6 +6,7 @@ import { register_me } from '@/Services/auth';
 import { useRouter } from 'next/navigation';
 import Cookies from 'js-cookie';
 import NavBar from '@/components/NavBar';
+import { name } from 'file-loader';
 
 
 export default function  Register (){
@@ -22,7 +23,7 @@ export default function  Register (){
 
 
   
-  const [formData, setFormData] = useState({ email: "", password: "" });
+  const [formData, setFormData] = useState({ email: "", password: "", name:"" });
   const [error, setError] = useState({ email: "", password: "", name: '' });
 
   const handleSubmit = async (e) => {
