@@ -32,9 +32,9 @@ export default function Intro() {
         <div className='lg:w-3/6 w-full sm:p-2 h-full my-2 flex items-center justify-center px-4 md:items-start md:justify-start md:p-20 flex-col '>
           <h1 className='md:text-6xl text-2xl sm:text-2xl font-extrabold mb-4 text-black '>Find the <span className='text-teal-600'> Perfect Job.</span> </h1>
           <p className='md:text-lg sm:text-sm text-xs mb-20 text-gray-400'>5000 job seekers visit this portal every day, with 200 new job postings added!</p>
-          <div className='bg-white flex-col mb-6 w-full md:px-4   py-4 flex sm:flex-row items-center justify-center'>
+          <div className='bg-white flex-col mb-6 w-full md:px-4   py-4 flex sm:flex-row items-center justify-center rounded-md'>
             <BiSearchAlt className='text-2xl text-teal-600 mx-2 hidden sm:flex' />
-            <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder='Search Jobs with Job categories like marketing ...' className='xs:w-full w-3/4  h-full px-2 bg-gray-200 text-base py-3 outline-none' />
+            <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder='Search Jobs with Job categories like marketing ...' className='xs:w-full w-3/4  h-full px-2 bg-gray-200 text-base py-3 outline-none rounded-md' />
             <button onClick={handleSearch} className='px-3 py-2 my-2 sm:my-0 border border-teal-600 rounded uppercase tracking-widest mx-4   text-white bg-teal-600 transition-all duration-700 hover:bg-transparent font-semibold text-base hover:text-teal-600'>Search</button>
           </div>
           <div className=' w-full px-2 py-2 flex items-center justify-start flex-wrap'>
