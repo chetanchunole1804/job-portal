@@ -51,8 +51,6 @@ export default function Intro() {
         </div>
         <div className='w-3/6 my-2 h-full bg-gray-200 hidden items-center justify-center flex-col p-20 lg:flex relative'>
           <Image width={600} height={700} src={mainImage} alt="no-image-found" className='rounded-full shadow-teal-500 shadow-2xl transition-all duration-2000'/>
-          {/* <div className='absolute bg-teal-300 opacity-50 w-36 h-20 rounded-full top-80 left-96'></div> */}
-          {/* <div className='absolute bg-teal-400 opacity-50 w-20 h-10 rounded-full bottom-80 right-96'></div> */}
         </div>
       </div>
       {
